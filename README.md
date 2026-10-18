@@ -6,10 +6,11 @@
 - GPU: NVIDIA GeForce RTX 4060 Laptop 8 GB
 - Disk: Seagate ZP1000GV30012
 - Ethernet: Realtek RTL8168H/8111H PCI Express Gigabit Ethernet
-- Wi-Fi/Bluetooth: Realtek MT7921（未驱动，可自行更换为AX210）
+- <del>Wi-Fi/Bluetooth: Realtek MT7921（未驱动，可自行更换为AX210</del>
+- Wi-Fi/Bluetooth: Intel AX210 Wi-Fi 6E WirelessLAN Adapter
 
 ## Files：
-提供两个版本EFI，分别适配macOS Sequoia 15.8.1 和 macOS Tahoe 26.7.1，根据系统版本进行选择
+提供三个版本EFI，分别适配macOS Sequoia 15.8.1 和 macOS Tahoe 26.7.1，根据系统版本进行选择
 
 ## Notice：
 - 本EFI由1401生成版本经过多轮修改而来，仅针对上述配置进行了实际验证，不保证其他型号硬件可用
@@ -29,9 +30,12 @@
 - 摄像头
 - 休眠和唤醒
 - 充电状态
+- Wi-Fi（支持 WiFi6，macOS 原生 Wi-Fi 菜单）
+- 蓝牙
+- 屏幕亮度调节
 
 ## Not Working：
-- Wi—Fi/Bluetooth（需要更换网卡，联发科网卡驱动仍在完善中）
+- Wi—Fi/Bluetooth（对于 MT7921，联发科网卡驱动仍在完善中）
 - DP热插拔（切换显示器需要重启电脑）
 - 部分图形加速场景仍有问题（需要等待NullMoth显卡驱动更新）
 - Virtualization（AMD 平台无解，Docker 等需要虚拟 linux 的软件不可用）
