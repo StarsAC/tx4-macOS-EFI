@@ -29,12 +29,12 @@
 - 摄像头
 - 休眠和唤醒
 - 充电状态
-- DP视频输出
 
 ## Not Working：
 - Wi—Fi/Bluetooth（需要更换网卡，联发科网卡驱动仍在完善中）
 - DP热插拔（切换显示器需要重启电脑）
 - 部分图形加速场景仍有问题（需要等待NullMoth显卡驱动更新）
+- Virtualization（AMD 平台无解，Docker 等需要虚拟 linux 的软件不可用）
 
 ## Links(Docs/Helpers/Tools)：
 - [OpenCore Official Docs](https://github.com/acidanthera/OpenCorePkg/releases)
