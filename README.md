@@ -6,7 +6,7 @@
 - GPU: NVIDIA GeForce RTX 4060 Laptop 8 GB
 - Disk: Seagate ZP1000GV30012
 - Ethernet: Realtek RTL8168H/8111H PCI Express Gigabit Ethernet
-- <del>Wi-Fi/Bluetooth: Realtek MT7921（未驱动，可自行更换为AX210</del>
+- <del>Wi-Fi/Bluetooth: Realtek MT7921（未驱动，可自行更换为AX210）</del>
 - Wi-Fi/Bluetooth: Intel AX210 Wi-Fi 6E WirelessLAN Adapter
 
 ## Files：
@@ -33,12 +33,14 @@
 - Wi-Fi（支持 WiFi6，macOS 原生 Wi-Fi 菜单）
 - 蓝牙
 - 屏幕亮度调节
+- DP 热插拔
+- 分辨率调节
 
 ## Not Working：
 - Wi—Fi/Bluetooth（对于 MT7921，联发科网卡驱动仍在完善中）
-- DP热插拔（切换显示器需要重启电脑）
 - 部分图形加速场景仍有问题（需要等待NullMoth显卡驱动更新）
-- Virtualization（AMD 平台无解，Docker 等需要虚拟 linux 的软件不可用）
+- Virtualization（AMD 平台无解，Docker 等需要虚拟 linux 的软件需要使用软件虚拟化）
+- DP 外放声音（需要等待显卡驱动完善）
 
 ## Links(Docs/Helpers/Tools)：
 - [OpenCore Official Docs](https://github.com/acidanthera/OpenCorePkg/releases)
@@ -51,6 +53,3 @@
 - Hackintosh community
 - CNIC
 - ChatGPT 6 Astra / ChatGPT desktop
-
-
-
